@@ -8,13 +8,7 @@ return [
         'api/home.json' => function () {
             return [
 
-                'elementType' => Entry::class,
-                'transformer' => function (craft\elements\Entry $entry) {
-                    return [
-                        'cards' => $entry->cards,
-                        'banner1Image' => $entry->banner1Image
-                    ];
-                },
+                'elementType' => Entry::class
 
             ];
         }
