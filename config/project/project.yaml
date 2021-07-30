@@ -1,0 +1,77 @@
+dateModified: 1627556315
+email:
+  fromEmail: chubao.uk@gmail.com
+  fromName: Demo
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0d995f2b-c48f-4124-afb7-de8f54e80bf3: Banner-1-intro # Banner-1-intro
+    0fb12c8b-904a-4033-87ad-39c6f85bb87c: Cards-Content # Cards-Content
+    2b2d4db6-ead8-498d-b816-7e16c41bea7a: twitter # twitter
+    2ec35f1a-ce92-4a7d-9cd5-091a0597a602: Banner-1-Image # Banner-1-Image
+    4b95413d-708c-41ea-9401-2b18a9d4e719: Banner-3-Image # Banner-3-Image
+    5f122c15-582f-4e17-a1b3-8e54482c2b1d: linkedin # linkedin
+    6ea547fb-7732-477d-a633-073ad70b7233: 'Home Banner 1' # Home Banner 1
+    7a277a0a-ee6c-4522-b7fa-8e3021062db2: 'Home Banner 2' # Home Banner 2
+    7c462d2b-74f8-405b-921f-fc656b0982a8: Demo # Demo
+    7f2b0963-a4ad-4703-840c-08c8724c33b1: 'home blue section' # home blue section
+    7f2485d2-c5a3-481d-80a6-5f2873f12039: cards-title # cards-title
+    8de780dc-3b2e-429f-821f-04af829ae293: 'Banner 3 Intro' # Banner 3 Intro
+    9f841d87-d06b-42ad-aa43-b94acfb9ef80: 'cards group' # cards group
+    10b3d775-4f2f-43be-9de2-1d1039b56756: 'Footer Address' # Footer Address
+    23fd8410-c22f-4ce2-b9e9-ee18ea33273b: card # card
+    60f59284-2f43-4dba-ab5a-012ef113d8f6: Banner-2-Image # Banner-2-Image
+    178ae8bc-0106-4a41-ad55-9c250c0c761d: Home # Home
+    500e1a67-48df-4cde-805d-aea18054434c: cards-image # cards-image
+    0826ef63-13c2-4164-b44d-701e67a12144: Uploads # Uploads
+    889e7ff0-4ff2-4318-ac7a-b4e25c7da6c2: Banner-2-Link # Banner-2-Link
+    2030c2a6-434f-4f19-8a52-62114facdfea: 'media intro' # media intro
+    5567ee76-83a7-47d6-9e0d-2517d8eca698: 'media Image' # media Image
+    9418c922-8791-4be4-80e6-15b330717c37: Demo # Demo
+    9732aa51-b630-40a6-96e6-bb26790edb8b: Footer # Footer
+    31175c8e-9ffa-402b-bb55-0284dde8d9c9: MiddleButton # MiddleButton
+    31719a5f-4a18-44bb-9b82-832aa75b2957: facebook # facebook
+    57242f8d-0c33-46b1-8f55-5bcafcbced44: MiddleTitle # MiddleTitle
+    81694b47-4192-42ec-8785-18ec79a57ec3: instagram # instagram
+    82722da7-1dd7-4f9e-9464-3763ba530b9c: 'Home Banner 3' # Home Banner 3
+    623423b0-765e-40ba-8b74-91f6275846cc: Banner-2-Title # Banner-2-Title
+    07155247-ec99-4c47-a713-75bdd40bf1ad: Banner-1-Link # Banner-1-Link
+    a8e37e54-11aa-49bc-bfdf-b251e3eeebe2: 'footer phone' # footer phone
+    aab2b4b1-eb1d-404d-9277-ca1103cf4062: 'cards link' # cards link
+    b66dbdd1-6747-42d7-8227-38d75916f449: 'footer Email' # footer Email
+    c519cc4e-184b-407b-a0d2-fda61f904828: Banner-3-Title # Banner-3-Title
+    c51301b9-676d-4cf3-ae32-ba06ede6d98b: 'contact phone' # contact phone
+    cc570e1e-cde3-4bb7-a76b-68c83b676eac: media-title # media-title
+    d4d31591-60bd-4408-abfd-f6690663b811: Banner-1-Title # Banner-1-Title
+    d4f6ab0b-63fb-468b-8f95-eb09218db0b9: Banner-3-Link # Banner-3-Link
+    d704237c-11fc-46b1-8ca4-400a705e7aa4: MiddleContent # MiddleContent
+    e086403e-cb4a-4067-bc9a-2499f48f4ce2: cards # cards
+    e5f9d053-3cc3-485b-a2ee-2e7f1d7502ea: 'cards intro' # cards intro
+    e85b409e-763e-4089-9fab-e552b8e9e4c4: Common # Common
+    edaea6ac-1538-4dda-9d2d-85a8636bae59: 'Home Contact' # Home Contact
+    ef996b5c-981c-4112-b43f-57ed82543500: 'media link' # media link
+    f1e7cb1b-ad4b-4c8e-8ef0-14f8e64daead: Banner-2-Intro # Banner-2-Intro
+    f6f9de35-ef9d-4953-af2d-c36d424d74e9: Home # Home
+    f618f24d-1432-4a01-b327-c470351c42d8: 'contact intro' # contact intro
+    f776acaa-08b3-4ea5-a697-d36aacf95da5: MiddleIntro # MiddleIntro
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: Demo
+  schemaVersion: 3.7.7
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

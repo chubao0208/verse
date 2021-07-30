@@ -1,0 +1,19 @@
+columnSuffix: mtvvgelx
+contentColumnType: text
+fieldGroup: 82722da7-1dd7-4f9e-9464-3763ba530b9c # Home Banner 3
+handle: banner3Intro
+instructions: 'Intro text of banner 3'
+name: 'Banner 3 Intro'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

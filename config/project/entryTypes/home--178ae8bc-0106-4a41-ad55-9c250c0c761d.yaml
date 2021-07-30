@@ -1,0 +1,327 @@
+fieldLayouts:
+  be4b86ee-4aef-4c8b-b3dd-a53d8e49ae16:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2ec35f1a-ce92-4a7d-9cd5-091a0597a602 # Banner-1-Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d4d31591-60bd-4408-abfd-f6690663b811 # Banner-1-Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0d995f2b-c48f-4124-afb7-de8f54e80bf3 # Banner-1-intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 07155247-ec99-4c47-a713-75bdd40bf1ad # Banner-1-Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Banner Tab 1'
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 60f59284-2f43-4dba-ab5a-012ef113d8f6 # Banner-2-Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 623423b0-765e-40ba-8b74-91f6275846cc # Banner-2-Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f1e7cb1b-ad4b-4c8e-8ef0-14f8e64daead # Banner-2-Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 889e7ff0-4ff2-4318-ac7a-b4e25c7da6c2 # Banner-2-Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Banner Tab 2'
+        sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: 4b95413d-708c-41ea-9401-2b18a9d4e719 # Banner-3-Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c519cc4e-184b-407b-a0d2-fda61f904828 # Banner-3-Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 8de780dc-3b2e-429f-821f-04af829ae293 # Banner 3 Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d4f6ab0b-63fb-468b-8f95-eb09218db0b9 # Banner-3-Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Banner Tab 3'
+        sortOrder: 3
+      -
+        elements:
+          -
+            fieldUid: 57242f8d-0c33-46b1-8f55-5bcafcbced44 # MiddleTitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f776acaa-08b3-4ea5-a697-d36aacf95da5 # MiddleIntro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 31175c8e-9ffa-402b-bb55-0284dde8d9c9 # MiddleButton
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Middle Intro'
+        sortOrder: 4
+      -
+        elements:
+          -
+            fieldUid: e086403e-cb4a-4067-bc9a-2499f48f4ce2 # cards
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Cards
+        sortOrder: 5
+      -
+        elements:
+          -
+            fieldUid: 5567ee76-83a7-47d6-9e0d-2517d8eca698 # media Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: cc570e1e-cde3-4bb7-a76b-68c83b676eac # media-title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2030c2a6-434f-4f19-8a52-62114facdfea # media intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ef996b5c-981c-4112-b43f-57ed82543500 # media link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Blue Section'
+        sortOrder: 6
+      -
+        elements:
+          -
+            fieldUid: f618f24d-1432-4a01-b327-c470351c42d8 # contact intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c51301b9-676d-4cf3-ae32-ba06ede6d98b # contact phone
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Contact Us'
+        sortOrder: 7
+      -
+        elements:
+          -
+            fieldUid: 10b3d775-4f2f-43be-9de2-1d1039b56756 # Footer Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a8e37e54-11aa-49bc-bfdf-b251e3eeebe2 # footer phone
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b66dbdd1-6747-42d7-8227-38d75916f449 # footer Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 31719a5f-4a18-44bb-9b82-832aa75b2957 # facebook
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 81694b47-4192-42ec-8785-18ec79a57ec3 # instagram
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2b2d4db6-ead8-498d-b816-7e16c41bea7a # twitter
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5f122c15-582f-4e17-a1b3-8e54482c2b1d # linkedin
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Footer
+        sortOrder: 8
+handle: home
+hasTitleField: false
+name: Home
+section: f6f9de35-ef9d-4953-af2d-c36d424d74e9 # Home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,19 @@
+columnSuffix: slauzneq
+contentColumnType: text
+fieldGroup: edaea6ac-1538-4dda-9d2d-85a8636bae59 # Home Contact
+handle: contactPhone
+instructions: 'contact section phone'
+name: 'contact phone'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: '+44 (0) 1234 567 890'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

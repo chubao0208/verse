@@ -1,0 +1,19 @@
+columnSuffix: ouzshyep
+contentColumnType: text
+fieldGroup: d704237c-11fc-46b1-8ca4-400a705e7aa4 # MiddleContent
+handle: middleTitle
+instructions: 'Middle title between slider and card'
+name: MiddleTitle
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '2'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

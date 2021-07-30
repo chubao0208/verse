@@ -1,0 +1,15 @@
+columnSuffix: gdboomim
+contentColumnType: string(255)
+fieldGroup: 6ea547fb-7732-477d-a633-073ad70b7233 # Home Banner 1
+handle: banner1Link
+instructions: 'URL of Banner 1'
+name: Banner-1-Link
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

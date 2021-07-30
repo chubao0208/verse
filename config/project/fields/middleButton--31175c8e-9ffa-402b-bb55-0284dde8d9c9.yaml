@@ -1,0 +1,15 @@
+columnSuffix: nnansqxm
+contentColumnType: string(255)
+fieldGroup: d704237c-11fc-46b1-8ca4-400a705e7aa4 # MiddleContent
+handle: middleButton
+instructions: 'button link of middle intro section'
+name: MiddleButton
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

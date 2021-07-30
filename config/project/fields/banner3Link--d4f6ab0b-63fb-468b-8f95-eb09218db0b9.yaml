@@ -1,0 +1,15 @@
+columnSuffix: cnnoduab
+contentColumnType: string(255)
+fieldGroup: 82722da7-1dd7-4f9e-9464-3763ba530b9c # Home Banner 3
+handle: banner3Link
+instructions: 'URL of banner 3'
+name: Banner-3-Link
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

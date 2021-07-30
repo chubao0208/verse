@@ -1,0 +1,15 @@
+columnSuffix: hqszlxju
+contentColumnType: string(255)
+fieldGroup: 7f2b0963-a4ad-4703-840c-08c8724c33b1 # home blue section
+handle: mediaLink
+instructions: 'blue section link'
+name: 'media link'
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

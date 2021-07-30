@@ -1,0 +1,19 @@
+columnSuffix: hnlmlqql
+contentColumnType: text
+fieldGroup: d704237c-11fc-46b1-8ca4-400a705e7aa4 # MiddleContent
+handle: middleIntro
+instructions: 'middle intro text between slider and card'
+name: MiddleIntro
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

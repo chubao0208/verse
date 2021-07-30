@@ -1,0 +1,19 @@
+columnSuffix: ccuxzwrs
+contentColumnType: text
+fieldGroup: 9732aa51-b630-40a6-96e6-bb26790edb8b # Footer
+handle: footerPhone
+instructions: 'footer section contact phone'
+name: 'footer phone'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: '0111 212 8111'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

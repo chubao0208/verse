@@ -1,0 +1,19 @@
+columnSuffix: qxiwlxjp
+contentColumnType: text
+fieldGroup: 7a277a0a-ee6c-4522-b7fa-8e3021062db2 # Home Banner 2
+handle: banner2Intro
+instructions: 'Intro Text of banner 2'
+name: Banner-2-Intro
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,195 @@
+field: e086403e-cb4a-4067-bc9a-2499f48f4ce2 # cards
+fieldLayouts:
+  4d6775b0-8092-4a23-b532-f44c4bf9d8c1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 500e1a67-48df-4cde-805d-aea18054434c # cards-image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7f2485d2-c5a3-481d-80a6-5f2873f12039 # cards-title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e5f9d053-3cc3-485b-a2ee-2e7f1d7502ea # cards intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: aab2b4b1-eb1d-404d-9277-ca1103cf4062 # cards link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 9f841d87-d06b-42ad-aa43-b94acfb9ef80 # cards group
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  7f2485d2-c5a3-481d-80a6-5f2873f12039: # cards-title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardsTitle
+    instructions: ''
+    name: cards-title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9f841d87-d06b-42ad-aa43-b94acfb9ef80: # cards group
+    columnSuffix: ylrpawib
+    contentColumnType: string
+    fieldGroup: null
+    handle: cardsGroup
+    instructions: ''
+    name: 'cards group'
+    searchable: false
+    settings:
+      optgroups: true
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - group1
+            -
+              - value
+              - group1
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - group2
+            -
+              - value
+              - group2
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - group3
+            -
+              - value
+              - group3
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  500e1a67-48df-4cde-805d-aea18054434c: # cards-image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: cardsImage
+    instructions: ''
+    name: cards-image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:0826ef63-13c2-4164-b44d-701e67a12144' # Uploads
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:0826ef63-13c2-4164-b44d-701e67a12144' # Uploads
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:0826ef63-13c2-4164-b44d-701e67a12144' # Uploads
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  aab2b4b1-eb1d-404d-9277-ca1103cf4062: # cards link
+    columnSuffix: null
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: cardsLink
+    instructions: ''
+    name: 'cards link'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  e5f9d053-3cc3-485b-a2ee-2e7f1d7502ea: # cards intro
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: cardsIntro
+    instructions: ''
+    name: 'cards intro'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: cardsContent
+name: Cards-Content
+sortOrder: 1

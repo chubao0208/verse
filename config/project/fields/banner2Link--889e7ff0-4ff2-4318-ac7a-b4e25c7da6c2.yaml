@@ -1,0 +1,15 @@
+columnSuffix: gbyrdvrz
+contentColumnType: string(255)
+fieldGroup: 7a277a0a-ee6c-4522-b7fa-8e3021062db2 # Home Banner 2
+handle: banner2Link
+instructions: 'URL of Banner 2'
+name: Banner-2-Link
+searchable: false
+settings:
+  maxLength: '255'
+  placeholder: null
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

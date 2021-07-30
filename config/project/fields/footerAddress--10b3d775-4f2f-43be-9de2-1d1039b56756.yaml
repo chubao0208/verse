@@ -1,0 +1,19 @@
+columnSuffix: cpjfskik
+contentColumnType: text
+fieldGroup: 9732aa51-b630-40a6-96e6-bb26790edb8b # Footer
+handle: footerAddress
+instructions: 'footer section address'
+name: 'Footer Address'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: 'Floor 5, 12-14 Grey Street, Newcastle upon Tyne, NE1 6TE'
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

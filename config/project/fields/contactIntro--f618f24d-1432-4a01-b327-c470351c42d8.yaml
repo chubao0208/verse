@@ -1,0 +1,19 @@
+columnSuffix: ddwmadjc
+contentColumnType: text
+fieldGroup: edaea6ac-1538-4dda-9d2d-85a8636bae59 # Home Contact
+handle: contactIntro
+instructions: 'contact section top message.'
+name: 'contact intro'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '2'
+  multiline: '1'
+  placeholder: 'A message followed by a way to get in touch.'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

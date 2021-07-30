@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta charset="utf-8"/>
+    <title>Verse.co.uk</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"/>
+    <meta name="referrer" content="origin-when-cross-origin"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
+
+    <link href="{{ siteUrl }}assets/css/reset.css" rel="stylesheet" type="text/css">
+    <link href="{{ siteUrl }}assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="{{ siteUrl }}assets/css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="{{ siteUrl }}assets/css/fontawesome/css/all.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+<div id="global-container">
+    <header>
+
+        <div class="container">
+            <ul id="menu-left">
+                <li><a href="#">Navigation 1</a></li>
+                <li><a href="#">Navigation 2</a></li>
+                <li><a href="#">Navigation 3</a></li>
+            </ul>
+            <div id="logo"></div>
+            <ul id="menu-right">
+                <li><a href="#">Navigation 4</a></li>
+                <li><a href="#">Navigation 5</a></li>
+                <li><a href="#">Navigation 6</a></li>
+            </ul>
+            <div id="mobile-menu-btn">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+            <div id="mobile-menu">
+                <ul>
+                    <li class="has-sub"><a href="">Navigation 1</a></li>
+                    <li class="has-sub"><a href="">Navigation 2</a></li>
+                    <li class="has-sub"><a href="">Navigation 3</a></li>
+                    <li class="has-sub"><a href="">Navigation 4</a></li>
+                    <li class="has-sub"><a href="">Navigation 5</a></li>
+                    <li class="has-sub"><a href="">Navigation 6</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+    </header>
+    <div id="home">
+        <div id="top-slide">
+            {#
+            assume that there are only 3 slides for this section
+            each slide to contain 1 image, and text / link
+            #}
+            {% set image_1 = entry.banner1Image.one() %}
+            {% set image_2 = entry.banner2Image.one() %}
+            {% set image_3 = entry.banner3Image.one() %}
+            <div class="banner active" style="
+                    background: url('{{ image_1.url }}');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    ">
+                <div class="overlay"></div>
+
+                <div class="intro">
+                    <div class="intro-head">
+                        {{ entry.banner1Title }}
+                    </div>
+                    <div class="intro-content">{{ entry.banner1Intro }}</div>
+                    <div class="intro-link">
+                        <a href="{{ entry.banner1Link }}">Link & Arrow <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner" style="
+                    background: url('{{ image_2.url }}');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    ">
+                <div class="overlay"></div>
+
+                <div class="intro">
+                    <div class="intro-head">
+                        {{ entry.banner2Title }}
+                    </div>
+                    <div class="intro-content">{{ entry.banner2Intro }}</div>
+                    <div class="intro-link">
+                        <a href="{{ entry.banner2Link }}">Link & Arrow <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner" style="
+                    background: url('{{ image_3.url }}');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    ">
+                <div class="overlay"></div>
+
+                <div class="intro">
+                    <div class="intro-head">
+                        {{ entry.banner3Title }}
+                    </div>
+                    <div class="intro-content">{{ entry.banner3Intro }}</div>
+                    <div class="intro-link">
+                        <a href="{{ entry.banner3Link }}">Link & Arrow <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            {#
+            slide button handler, control by jQuery
+            #}
+            <div id="banner-btn">
+                <ul>
+                    <li class="active" index="1">
+                        <a href="#"><span>1.</span> Innovation Partner</a>
+                    </li>
+                    <li index="2">
+                        <a href="#"><span>2.</span> Top Class Team</a>
+                    </li>
+                    <li index="3">
+                        <a href="#"><span>3.</span> Corporate Solutions</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        {#
+        middle section contents , link
+        #}
+        <div id="middle-slide">
+            <div class="slide active">
+                <div class="slide-head">{{ entry.middleTitle }}</div>
+                <div class="slide-content">{{ entry.middleIntro }}</div>
+                <div class="slide-button">
+                    <a href="{{ entry.middleButton }}" class="btn">Button Text</a>
+                </div>
+            </div>
+        </div>
+
+        {#
+        card section, each card can choose a group in CMS
+            click on group tab to change all cards related to that group.
+
+        #}
+
+        <div id="card">
+
+            <div id="tab-btn">
+                <ul>
+                    <li class="active" group="group1">
+                        <a href="#">Active Tab</a>
+                    </li>
+                    <li group="group2">
+                        <a href="#">Hovered Tab</a>
+                    </li>
+                    <li group="group3">
+                        <a href="#">Inactive Tab</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card-list">
+                <ul>
+                    {% for card in entry.cards.all() %}
+                        <li group="{{ card.cardsGroup }}">
+                            <div class="card-image-wrap">
+                                <div class="card-image" style="
+                                        background-image: url('{{ card.cardsImage.one().url }}');
+                                        "></div>
+
+                                <a href="{{ card.cardsLink }}"></a>
+                            </div>
+                            <div class="card-title">{{ card.cardsTitle }}</div>
+                            <div class="card-intro">{{ card.cardsIntro }}</div>
+                            <div class="card-link">
+                                <a href="{{ card.cardsLink }}">Link & Arrow <i class="fas fa-chevron-right"></i></a>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {#
+        standard image / text section
+        #}
+        <div id="media-section">
+            <div class="container">
+                <div id="media-left" style="background: url('{{ entry.mediaImage.one().url }}');
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;"></div>
+                <div id="media-right">
+                    <div class="media-title">{{ entry.mediaTitle }}</div>
+                    <div class="media-intro">{{ entry.mediaIntro }}</div>
+                    <div class="media-link"><a href="{{ entry.mediaLink }}">Link & Arrow <i
+                                    class="fas fa-chevron-right"></i></a></div>
+                </div>
+            </div>
+
+        </div>
+        {#
+        standard text section
+        #}
+        <div id="contact-us">
+            <div class="min-container">
+                <div id="contact-intro">
+                    <div class="intro-title">{{ entry.contactIntro }}</div>
+                    <div class="intro-phone">{{ entry.contactPhone }}</div>
+                </div>
+                <div id="contact-form">
+                    <form name="contact-form" action="#" method="post">
+                        <ul>
+                            <li class="error">
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" id="email" placeholder="john.doe@mysite.com"/>
+                                <div class="error-message">* Invalid Email Address</div>
+                            </li>
+                            <li>
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" id="name" placeholder="John Doe"/>
+                            </li>
+                            <li>
+                                <label for="topic">Topic</label>
+                                <select name="topic" id="topic">
+                                    <option>Please select</option>
+                                    <option>Topic A</option>
+                                    <option>Topic B</option>
+                                    <option>Topic C</option>
+                                </select>
+                            </li>
+                            <li>
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" placeholder="Enter a message..."></textarea>
+                            </li>
+                            <li>
+                                <input type="submit" name="submit" value="Button Text"/>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+        {#
+            CMS can change the address / phone / email and social media
+            assume the structure of website would not change.
+            links can be hard-coded in this section.
+        #}
+        <footer>
+            <div class="mid-container">
+                <ul>
+                    <li>
+                        <div class="footer-title">Contact Us</div>
+                        <div id="footer-address">
+                            {{ entry.footerAddress }}
+                        </div>
+                        <div id="footer-contact">
+
+                            Tel: <a href="tel:{{ entry.footerPhone }}">{{ entry.footerPhone }}</a><br>
+                            <a href="mailto:{{ entry.footerEmail }}">{{ entry.footerEmail }}</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="footer-title">Services</div>
+                        <ul>
+                            <li><a href="#">Service One</a></li>
+                            <li><a href="#">Service Two</a></li>
+                            <li><a href="#">Service Three</a></li>
+                            <li><a href="#">Service Four</a></li>
+                            <li><a href="#">Service Five</a></li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <div class="footer-title">Resources</div>
+                        <ul>
+                            <li><a href="#">Resource One</a></li>
+                            <li><a href="#">Resource Two</a></li>
+                            <li><a href="#">Resource Three</a></li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <div id="footer-media">
+                            <a href="{{ entry.instagram }}" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="{{ entry.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="{{ entry.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="{{ entry.facebook }}" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </footer>
+
+        <div id="copyright-policy">
+            <div class="mid-container">
+
+                <div class="copyright-left">
+                    <a href="#">&copy; Horizon</a>
+                    <a href="#">Company No. 199899939</a>
+                    <a href="#">VAT No. 199899939</a>
+                </div>
+                <div class="copyright-right">
+                    <a href="#">Cookies Policy</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+
+        </div>
+        <script>
+            //to handle the mobile menu button
+            $("#mobile-menu-btn").click(function () {
+
+                if ($("#mobile-menu").hasClass("open")) {
+                    //close the mobile menu when it was opened
+                    $("#mobile-menu").removeClass("open");
+                    $(this).removeClass("open");
+                } else {
+                    //open the mobile menu
+                    $("#mobile-menu").addClass("open");
+                    $(this).addClass("open");
+                }
+
+            });
+            $("#banner-btn li").click(function (e) {
+
+                //banner button handler, click to change slide
+
+                e.preventDefault();
+                $active_index = $(this).attr("index");
+                $("#banner-btn li").removeClass("active");
+                $("#top-slide .banner").removeClass("active");
+                $("#banner-btn li:nth-child(" + $active_index + ")").addClass("active");
+                $("#top-slide .banner:nth-child(" + $active_index + ")").addClass("active");
+            });
+            $(document).ready(function () {
+                //default show group 1 for card-list
+                $(".card-list li[group=group1]").show();
+            });
+
+            $("#tab-btn li").click(function (e) {
+                //cards group button handler, click to change the group by fadein effect
+                e.preventDefault();
+                $active_group = $(this).attr("group");
+                $("#tab-btn li").removeClass("active");
+                $(".card-list li").removeClass("active");
+                $(this).addClass("active");
+                $(".card-list li").hide();
+                $(".card-list li[group=" + $active_group + "]").fadeIn();
+            });
+
+        </script>
+
+    </div>
+</div>
+</body>
+</html>

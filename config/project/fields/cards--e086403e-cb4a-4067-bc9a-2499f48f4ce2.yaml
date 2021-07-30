@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 23fd8410-c22f-4ce2-b9e9-ee18ea33273b # card
+handle: cards
+instructions: ''
+name: cards
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_cards}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

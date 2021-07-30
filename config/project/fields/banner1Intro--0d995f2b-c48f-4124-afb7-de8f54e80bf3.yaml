@@ -1,0 +1,19 @@
+columnSuffix: vvboyfvv
+contentColumnType: text
+fieldGroup: 6ea547fb-7732-477d-a633-073ad70b7233 # Home Banner 1
+handle: banner1Intro
+instructions: 'Introduction text of banner 1'
+name: Banner-1-intro
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
